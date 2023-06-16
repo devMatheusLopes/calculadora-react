@@ -21,12 +21,10 @@ function App() {
     else if (action === "subtrair") {
       return parseFloat(number_1) - parseFloat(number_2)
     }
-    else if (action === "dividir") {
+    else{
       return parseFloat(number_1) / parseFloat(number_2)
     }
-    else {
-      setResult(0)
-    }
+    
 
   }
 
